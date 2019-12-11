@@ -28,3 +28,23 @@ venv => scripts => activate 에 들어가면 진입성공
 생성해서 복사
 
 5) terminal에 vi .gitignore 입력후 붙여넣기
+
+#  3. python 문법 
+
+## 3.1 문자열 삽입( 문자열 포매팅 )
+
+* 파이썬 3.0 이상 : format 함수를 이용한 포매팅
+
+* 파이썬 3.6 이상 : f-string 포매팅
+
+* ```python
+  #format 함수
+  "{1} {0}".format('one'm'two')
+  
+  #f-string
+  a,b='one','two'
+  f'{a}, {b}'
+  ```
+
+* 
+
